@@ -16,9 +16,7 @@
   <div>
     <canvas id="myChart2" style="position: relative; height: 40vh; width: 40vw"></canvas>
   </div>
-  <div>
-    <canvas id="myChart3" style="position: relative; height: 20vh; width: 20vw"></canvas>
-  </div>
+  
 </body>
 <script>
   const labels = ["12:00", "13:00", "14:00", "15:00", "16:00", "17:00"];
@@ -39,19 +37,19 @@
       },
     ],
   };
-  const labels2 = ["January", "February", "March", "April", "May", "June"];
+  const label = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"];
 
   const data2 = {
     labels: labels,
     datasets: [
       {
-        label: "Temperatura",
+        label: "Temperatura média",
         backgroundColor: "rgb(255, 0, 0)",
         borderColor: "rgb(255, 0, 0)",
         data: [22, 24, 27, 23, 20, 18,],
       },
       {
-        label: "Umidade",
+        label: "Umidade média",
         backgroundColor: "rgb(255, 0, 0)",
         borderColor: "rgb(255, 0, 0)",
         data: [90, 89, 93, 87, 88, 82],
